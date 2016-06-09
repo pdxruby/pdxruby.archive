@@ -1,0 +1,246 @@
+/*
+ * general
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+A:link {
+  color: #00c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+A:visited {
+  color: #5C0099;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+A:hover {
+  background: #F3EE6A;
+  font-weight: bold;
+}
+
+abbr {
+  border-bottom: none;
+}
+
+th, 
+td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.dont_fill_this_in {
+  display: none;
+}
+
+.odd {
+  background: #F2EEEE;
+}
+
+.even {
+  background: #FAF6F6;
+}
+
+.required_field:before {
+  content: "*";
+  color: red;
+  position: absolute;
+  left: 1em;
+  margin: 0;
+}
+
+.required_field:after {
+  content: " (Required)";
+  color: #808080;
+  font-style: italic;
+}
+
+/*
+ * banner
+ */
+
+#banner {
+  height: 8em;
+}
+
+#banner-left {
+  color: red;
+  padding: 1em;
+  float: left;
+}
+
+#banner-right {
+  margin-left: 10em;
+  padding: 1em;
+}
+
+#banner-obsolete {
+  margin: 0em;
+  padding: 0.1em 1em;
+  background-color: red;
+}
+
+#banner-obsolete p {
+  font-weight: bold;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/*
+ * sidebar
+ */
+
+#sidebar {
+  position: absolute
+  top: 8em;
+  width: 8em;
+  padding: 0 1em 0;
+}
+
+#sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar li {
+  padding-bottom: 0.5em;
+  list-style: none;
+  font-style: italic;
+}
+
+/*
+ * content
+ */
+
+#content {
+  position: absolute;
+  top: 11em;
+  margin-left: 11em;
+  margin-right: 11em;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#flash .flash_notice {
+  color: green;
+  border: 2px dashed green;
+  padding: 1em;
+}
+
+#flash .flash_error {
+  color: red;
+  border: 2px dashed red;
+  padding: 1em;
+}
+
+#content h2 {
+  margin: 0;
+  padding: 1em 0 0 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.3em;
+}
+
+#content h2:first-child {
+  padding: 0;
+}
+
+#content p,
+#content div {
+  padding-left: 2em;
+}
+
+#content ul li p {
+  padding-left: 0em;
+}
+
+/* /members/list */
+table#memberlist{
+  border-collapse: collapse;
+}
+table#memberlist td{
+  height: 40px;
+  padding: 5px 10px;
+  vertical-align: middle;
+}
+/* /events/list */
+table#eventlist{
+}
+table#eventlist td{
+  padding: 3px;
+}
+table#eventlist tr.cancelled_event {
+  background: #ecb;
+  color: #444;
+}
+
+.attention {
+  font-weight: bold;
+  background: #ff9;
+}
+
+/*---[ changes ]------------------------------------------------------*/
+
+#changes_table th,
+#changes_table td {
+  padding: 0.25em;
+}
+
+#changes_table,
+.changes_details_table {
+  width: 100%;
+}
+
+#changes_table .change_time {
+  width: 10%;
+}
+
+#changes_table .change_details {
+  width: 90%;
+}
+
+#changes_table .change_time,
+#changes_table .change_details {
+  padding-bottom: 1em;
+}
+
+#changes_table .change_detail_description {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5em;
+  font-style: italic;
+}
+
+.changes_details_table td {
+  border-bottom: 1px solid gray;
+}
+
+
+.changes_details_table td.change_detail_key {
+  width; 10%;
+}
+
+.changes_details_table td.change_detail_value {
+  width: 40%;
+}
+
+.changes_details_table td.change_detail_spacer {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/*---[ fin ]----------------------------------------------------------*/
